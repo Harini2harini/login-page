@@ -1,0 +1,91 @@
+body{
+    margin:0px;
+    background-image: url("C:/Users/harin/Downloads/download (1).jfif");
+    background-size: cover;
+
+}
+    
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+.logo{
+    padding: 10px;
+    font-size:medium;
+    color:whitesmoke;
+}
+nav ul{
+    display: flex;
+    gap:30px;
+
+}
+nav ul li a{
+   font-weight: 500;
+    color:white;
+    justify-content: end;
+    text-decoration: none;
+}
+section{
+    padding: 60px 60px;
+    text-align: center;
+
+}
+section h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.pro{
+    display: flex;
+    margin-top: 30px;    
+    gap:30px;
+}
+.plan{
+    background-color: aliceblue;
+    border: 2px;
+    border-radius: 16px;
+    padding: 10px 10px 10px 10px;
+   display: block;
+   justify-content: center;
+   height: 9cm;
+   width: 12cm;
+   transition:transform 0.5s;
+}
+.plan:hover{
+    transform: scale(1.05);
+    
+}
+
+h2{
+    padding: 5px;
+    font-size: 30px;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.plan ul{
+    
+    padding: 10px;
+    list-style-type: none;
+    display: block;
+    justify-content: space-between;
+    gap: 2px;  
+}
+
+.button{
+    border: 5px solid;
+    border-radius:13px;
+    text-align: center;
+    background-color: #2c3e50; 
+    text-decoration: none; 
+    color: white;
+    padding: 8px;
+    margin: 40px 80px 40px 80px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}

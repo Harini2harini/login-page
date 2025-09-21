@@ -1,0 +1,78 @@
+body{
+    margin:0px;
+    background-image: url("C:/Users/harin/Downloads/download (1).jfif");
+    background-size: cover;
+}
+nav{
+    background-color: black;
+    color: aliceblue;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+
+
+}
+.logo{
+    padding: 20px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap:30px;
+    padding-right: 20px;
+    justify-content:end;
+    align-items: center;
+    list-style-type: none;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+section{
+    padding: 30px 50px 30px 40px;
+    align-items: center;
+    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+form{
+    align-items: center;
+    justify-content: space-between;
+    gap:30px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.form input{
+    
+    border-radius: 7px;
+    text-align: center;
+    margin-left:80px;
+    margin-right: 80px;
+    border:6px;
+    padding: 7px;
+  flex-direction: column; 
+}
+.button{
+    align-items: center;
+    padding: 20px;
+     margin:50px 120px 50px 120px;
+
+}
+.button input{
+    text-decoration: none;
+    background-color: rgb(54, 54, 87);
+    color:aliceblue;
+    border:2px;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+   
+
+}

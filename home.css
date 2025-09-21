@@ -1,0 +1,70 @@
+body{
+    margin:0px;
+    background-image: url("C:/Users/harin/Downloads/download (1).jfif");
+    background-size: cover;
+
+}
+    
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+.logo{
+    padding: 20px;
+    font-size: medium;
+    color:whitesmoke;
+    
+}
+nav ul{
+    display: flex;
+    gap:30px;
+
+}
+nav ul li a{
+    font-weight: 500;
+    color:white;
+    justify-content: end;
+    text-decoration: none;
+
+}
+h1,
+p{ 
+    
+    padding-top: 100px;
+    margin-bottom: 15px;
+    
+}
+h1{
+    margin:20px;
+    font-size: 50px  ;
+    text-align: center;
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+
+.view a{
+    text-decoration: none;
+    display: inline-block;
+    padding:15px;
+    background-color: #2c3e50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left:18cm;
+    
+}
+.view:hover{
+    color:white;
+}
